@@ -1,0 +1,26 @@
+.kakao-header {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 10px;
+  margin: 20px 0px 10px 0px;
+}
+
+.kakao-header__column {
+  width: 50%;
+}
+
+.kakao-header__column h1 {
+  font-size: 26px;
+}
+
+.kakao-header__icon {
+  font-size: 22px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.kakao-header__icon i {
+  cursor: pointer;
+  margin: 0px 10px;
+}

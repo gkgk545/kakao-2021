@@ -1,0 +1,95 @@
+.friends--display {
+  border: none;
+  background-color: #f7f7f7;
+  width: 100%;
+  height: 40px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+.friends--display:focus {
+  outline: none;
+}
+
+.friends--display:hover {
+  background-color: #ffeb00;
+}
+
+.friends--display i {
+  opacity: 0.2;
+  font-size: 20px;
+  margin-right: 3px;
+}
+
+.friends--display span {
+  opacity: 0.7;
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+.profile--line {
+  width: 92%;
+  opacity: 0.2;
+  border-width: 1px;
+}
+
+.Channel__header {
+  width: 92%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 3% 4%;
+}
+
+.fas.fa-angle-up {
+  opacity: 0.4;
+}
+
+.userAvatar__column-A {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userAvatar__column--row {
+  display: flex;
+  opacity: 0.4;
+}
+
+.userAvatar__column--row i {
+  margin-left: 30%;
+}
+
+.afds:hover {
+  background-color: rgb(245, 245, 245);
+}
+
+.friends--body {
+  position: relative;
+}
+
+@keyframes fadeOutAnimation {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffeb00;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  animation: fadeOutAnimation 0.6s ease-in-out forwards;
+  animation-delay: 1s;
+}

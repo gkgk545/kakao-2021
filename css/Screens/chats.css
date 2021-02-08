@@ -1,0 +1,32 @@
+.chat__header {
+  margin-bottom: 25px;
+}
+
+.profile-contents {
+  width: 100%;
+  margin-right: 10%;
+}
+
+.chat__main {
+  cursor: pointer;
+}
+
+.chat__main:hover {
+  background-color: rgb(245, 245, 245);
+}
+
+.profile-contents__column {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile__dialog {
+  padding-left: 3%;
+}
+
+.profile__dialog,
+.chat__one {
+  margin-top: 2%;
+}

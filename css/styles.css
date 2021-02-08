@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "Components/status-bar.css";
+@import "Components/kakao-header.css";
+@import "Components/user.css";
+@import "Components/nav.css";
+@import "Components/no-mobile.css";
+
+/* Screens */
+@import "Screens/login.css";
+@import "Screens/friends.css";
+@import "Screens/chats.css";
+@import "Screens/chatting.css";
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Yusei Magic", sans-serif;
+}
